@@ -8,7 +8,7 @@
 #   <thead>
 #     <tr>
 #       <th>Title</th>
-#       <th>Contnet</th>
+#       <th>content</th>
 #       <th colspan="3"></th>
 #     </tr>
 #   </thead>
@@ -17,7 +17,7 @@
 #     <% @posts.each do |post| %>
 #       <tr>
 #         <td><%= post.title %></td>
-#         <td><%= post.contnet %></td>
+#         <td><%= post.content %></td>
 #         <td><%= link_to 'Show', post %></td>
 #         <td><%= link_to 'Edit', edit_post_path(post) %></td>
 #         <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
